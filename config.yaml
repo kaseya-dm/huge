@@ -17,7 +17,7 @@ module:
   hugoVersion:
     extended: true
     # Bumping minVersion? Search comments for +minVer+ first.
-    min: "0.100.0"
+    min: "0.128.0"
   mounts:
   - source: assets
     target: assets
@@ -27,5 +27,5 @@ module:
     target: layouts/partials/huge
 
   imports:
-  - path: github.com/theNewDynamic/hugo-module-tnd-seo
-  - path: github.com/theNewDynamic/hugo-module-tnd-media
+  - path: github.com/kaseya-dm/hugo-module-tnd-seo
+  - path: github.com/kaseya-dm/hugo-module-tnd-media
